@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "name": "Chandler",
+        "family": "Bing",
+        "email": "chandler@bing.com",
+        "password": "123456"
+    },
+    {
+        "id": "2",
+        "name": "Monica",
+        "family": "Geller",
+        "email": "monica@geller.com",
+        "password": "123456"
+    },
+    {
+        "id": "3",
+        "name": "Joey",
+        "family": "Tribbiani",
+        "email": "joey.tribbiani.com",
+        "password": "123456"
+    },
+    {
+        "id": "4",
+        "name": "Phoebe",
+        "family": "Buffay",
+        "email": "phoebe@buffay.com",
+        "password": "123456"
+    },
+    {
+        "id": "5",
+        "name": "Ross",
+        "family": "Geller",
+        "email": "ross@geller.com",
+        "password": "123456"
+    },
+    {
+        "id": "6",
+        "name": "Rachel",
+        "family": "Green",
+        "email": "rachel@green.com",
+        "password": "123456"
+    }
+]
