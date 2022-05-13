@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
-// const books = require('./books');
 const users = require("./data/user.json");
+const products = require("./data/products.json");
 
 const app = express();
 
@@ -54,13 +54,13 @@ app.post("/auth/login", (req, res) => {
   }, 500);
 });
 
-// app.get("/books",(req,res)=>{
-//     setTimeout(()=>{
-//         res.status(200).send({
-//             hasError:false,
-//             payload:books
-//         })
-//     },600)
-// })
+app.get("/products", (req, res) => {
+  setTimeout(() => {
+    res.status(200).send({
+      hasError: false,
+      payload: products,
+    });
+  }, 500);
+});
 
 app.listen(9000);
